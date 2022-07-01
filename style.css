@@ -1,0 +1,49 @@
+/* ========================================================================
+GENERAL STYLES
+===========================================================================*/
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.col{
+    width: 100%;
+}
+
+/* ========================================================================
+MENIU STYLES
+===========================================================================*/
+
+nav{
+    border-top: 2px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+}
+
+nav > ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+nav > ul > li{
+    padding: 5px;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+nav > ul > li > a:hover{
+    text-decoration: underline;
+}
